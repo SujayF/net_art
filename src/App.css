@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(
+  180deg,
+  hsl(48deg 56% 98%) 0%,
+  hsl(52deg 76% 97%) 20%,
+  hsl(53deg 85% 96%) 27%,
+  hsl(54deg 90% 95%) 33%,
+  hsl(54deg 94% 93%) 42%,
+  hsl(54deg 96% 92%) 52%,
+  hsl(54deg 97% 91%) 63%,
+  hsl(55deg 98% 89%) 74%,
+  hsl(55deg 99% 88%) 87%,
+  hsl(55deg 100% 86%) 100%
+);
+
+}
+
+.bodyy{
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo{
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+#award{
+  padding-left: 30px;
+  width: 35vw;
+  height: 110vh;
+}
+
+.list{
+  width: 60vw;
+}
+
+.list,p{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+#pic{
+  width: 55em;
+  height: 35em ;
+}
+
+ul{
+  padding-bottom: 10px;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align:center;
+}
+
+p{
+  padding-top: 10px;
+}
+
+#equips{
+   width: 80%;
+   height: 60%;
+}
+
+h4{
+  padding-top: 30px;
+}
+
+.red-pipe{
+  color: red;
+  display: inline-block;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.end,p{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.line{
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.footer{
+  background-color: #EC3237;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: white;
+}
+
+.btn,p{
+  padding: 5px;
+}
+
+.icon{
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  color:#EC3237 ;
+}
+
+#fb{
+  width: 25px;
+  height: 25px;
+}
+
+.url{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: large;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+ 
+  #award{
+    height: 75vh;
+  } 
+
+  #pic{
+    width: 26em;
+    height: 16em;
+  }
+   
+  .list,ul{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
